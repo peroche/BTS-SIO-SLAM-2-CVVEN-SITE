@@ -12,9 +12,9 @@ class connexionBDD extends PDO {
     public function __construct() {
         $this->sgbd = 'mysql';
         $this->hote = 'localhost';
-        $this->bd = 'cvven_qtt2';
-        $this->user = 'root';
-        $this->pass = 'root';
+        $this->bd = '';
+        $this->user = '';
+        $this->pass = '';
         $dsn = $this->sgbd . ':dbname=' . $this->bd . ";host=" . $this->hote;        
         //Appel du constructeur parent
         parent::__construct($dsn, $this->user, $this->pass, array());
