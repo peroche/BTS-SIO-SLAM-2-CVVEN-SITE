@@ -1,0 +1,102 @@
+p   {
+   font-size:20px;
+}
+
+
+h1
+{
+
+    font-size: 38px; /* Titres de 38 pixels */
+    
+}
+
+pre
+{
+    font-family: georgia;
+  
+}
+
+body  
+{
+border-top-width: thick;
+border-top-style: solid;
+border-top-color: black;
+
+border-bottom-width: thick;
+border-bottom-style: solid;
+border-bottom-color: black;
+
+border-right-width: thick;
+border-right-style: solid;
+border-right-color: black;
+
+border-left-width: thick;
+border-left-style: solid;
+border-left-color: black;
+
+       background-color:#34393E;
+       color:#039;
+      
+background: rgb(240,249,255);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(240,249,255,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(161,219,255,1)));
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+background: -o-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a1dbff',GradientType=1 );
+
+
+
+
+
+}
+
+h2 {
+ font-size: 20px;
+
+
+}
+
+#tableau {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+#tableau th {
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid #fff;
+    background: #e8edff url('http://1.bp.blogspot.com/_xDpoN6UfFFY/S-J2f5yBC3I/AAAAAAAACbY/zWXYXsR-w5E/s1600/gradback.png') repeat-x;
+}
+#tableau td {
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid #fff;
+    background: #e8edff url('http://1.bp.blogspot.com/_xDpoN6UfFFY/S-J2f5yBC3I/AAAAAAAACbY/zWXYXsR-w5E/s1600/gradback.png') repeat-x;
+}
+#tableau tfoot tr td {
+    background: #e8edff;
+    font-size: 16px;
+    color: #99c;
+    text-align:center;
+}
+#tableau tbody tr:hover td {
+    background: #d0dafd url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2hsztUzI/AAAAAAAACbo/ztV1CK0RUrE/s1600/gradhover.png') repeat-x;
+    color: #339;
+}
+#tableau a:hover {
+    text-decoration:underline;
+}
+
+
+
+
+
+
+

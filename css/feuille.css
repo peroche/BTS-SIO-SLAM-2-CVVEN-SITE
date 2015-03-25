@@ -1,0 +1,220 @@
+/* 
+    Document   : style-utec
+    Created on : 2 oct. 2013, 00:55:43
+    Author     : Clem
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.calendrier
+{
+    border: medium solid #000000;
+    border-collapse: collapse;
+    width: auto;
+    margin: auto;
+}
+
+
+.cal-annee table 
+{
+    border: medium solid #000000;
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+.cal-annee
+{
+    border:none;
+    width:auto;
+}
+
+.cal-navig
+{
+    border:none;
+    width:45%;
+}
+
+.anneesuiv
+{
+    border:none;
+    text-align: right;
+}
+
+
+.anneeprec
+{
+    border:none;
+    text-align: left;
+}
+
+.utilisateurs
+{
+    border:none;
+    width:50%;
+}
+
+
+.tablegen
+{ 
+    text-align:center; 
+    width:50%;
+}
+
+
+caption
+{
+    font-size: 20px;
+}
+
+
+.cal-annee td
+{
+    border: thin solid #6495ed;
+    font-size: 12px;
+}
+
+.grisee
+{
+    color: darkgray
+}
+
+
+
+.complet
+{
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+.reservation
+{
+    font-weight: bold;
+    background-color: mediumslateblue;
+}
+
+
+.demande{
+    color:darkorange;
+    font-weight: bold;
+}
+
+
+th 
+{
+    background-color: #D0E3FA;
+    border: thin solid #6495ed;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+h2
+{ 
+    font-size : 12px; 
+    color: #6495ff;
+}
+
+.admin
+{
+    background-color: lightblue;
+}
+
+#sommaire-ReservUtil{
+    position:absolute;
+    color: black;
+    /*left:10px;*/
+    margin-left: 20px;
+    width:100px;
+    margin-top: 14px;
+    padding: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgb(135,224,253);
+    background: -moz-linear-gradient(45deg, rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(135,224,253,1)), color-stop(40%,rgba(83,203,241,1)), color-stop(100%,rgba(5,171,224,1))); 
+    background: -webkit-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); 
+    background: -ms-linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); 
+    background: linear-gradient(45deg, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); 
+}
+#sommaire-ReservUtil a:hover{
+    color: blueviolet;
+}
+#libelle-ReservUtil{
+    width: 900px;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#libelle-ReservUtil legend{
+    font-size: 20px;
+    color: red;
+}
+#libelle-ReservUtil table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#libelle-ReservUtil td{
+    border: medium inset lightskyblue;
+}
+#index a:hover{
+    color: black;
+}
+#index{
+    font-size: 18px;
+    color:black;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#index a{
+     margin-left: 20px;
+}
+#index legend{
+    font-size: 20px;
+    color:black;
+    text-decoration: underline;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 5px ridge;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+.legendecalendrier{
+    width: 20%;
+    position:absolute;
+    left: 10px;
+}
